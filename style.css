@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+
+
+
+body{
+  background-color: rgb(171, 85, 4) ;
+}
+
+
+.Main-header-titles h1 {
+    font-size: 40pt;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.Main-header-titles h2 {
+    font-size: 20pt;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: -1em;
+
+
+
+}
+
+.Main-header-titles {
+    padding: 20em;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2021/01/18/beautiful-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 3em;
+    border-radius: 40pt;
+    border-style: solid;
+    color: whitesmoke;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+#main-nav {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(70, 48, 8);
+    border-radius: 20pt;
+    border-style: solid;
+    color: whitesmoke;
+
+}
+
+#main-nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-nav ul li a {
+    padding: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+
+}
+
+#main-nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    transition: 0.5s;
+}
+
+#Section-1 {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(70, 48, 8);
+    margin: 3em;
+    color: whitesmoke;
+    padding: -3em;
+    background-size: cover;
+    border-radius: 20pt;
+    border-style: solid;
+}
+
+#Section-1 p {
+    padding: 2em;
+    bottom: 300px;
+    text-align: center;
+    font-size: 15pt;
+    color: whitesmoke;
+    text-shadow: 3px 4px rgba(0, 0, 0, 0.5);
+
+    
+}
+
+
+
+
+.Image {
+
+
+    float: right;
+    margin: auto;
+    color: white;
+    margin-top: 3em;
+
+
+
+
+}
+
+.Image img
+{
+    margin: 3em;
+    border-radius: 40pt;
+    border-style: solid;
+    color: whitesmoke;
+    margin-bottom: 6em;
+    
+   
+}
+
+aside
+{
+    background-color: rgb(70, 48, 8);
+    color: white;
+    border-radius: 20pt;
+    border-style: solid;
+    text-align: center;
+    padding: 2em;
+    margin: 3em;
+    font-size: large;
+
+}
